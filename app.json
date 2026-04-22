@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Baby Growth",
+    "slug": "baby-growth",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF9FB"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.babygrowth.app",
+      "infoPlist": {
+        "NSUserNotificationsUsageDescription": "We use notifications to remind you about feeding times and upcoming vaccinations."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F4A7B9"
+      },
+      "package": "com.babygrowth.app",
+      "permissions": [
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE"
+      ],
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#F4A7B9",
+          "sounds": []
+        }
+      ]
+    ]
+  }
+}
