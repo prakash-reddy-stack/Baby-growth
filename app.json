@@ -6,7 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -25,9 +25,11 @@
         "backgroundColor": "#F4A7B9"
       },
       "package": "com.babygrowth.app",
+      "versionCode": 1,
       "permissions": [
         "RECEIVE_BOOT_COMPLETED",
-        "VIBRATE"
+        "VIBRATE",
+        "NOTIFICATIONS"
       ],
       "edgeToEdgeEnabled": true
     },
